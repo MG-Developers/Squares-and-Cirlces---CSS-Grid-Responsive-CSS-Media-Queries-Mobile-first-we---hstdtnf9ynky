@@ -1,4 +1,6 @@
 .outer-square {
+  display: flex;
+  justify-content: space-evenly;
   width: 600px;
   height: 600px;
 }
