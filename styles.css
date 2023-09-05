@@ -1,12 +1,15 @@
 .outer-square {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
   width: 600px;
   height: 600px;
 }
 .inner-square {
-  padding: 10px 10px;
+  background-color:green;
 }
 .circle {
-  padding: 10px 10px;
+  background-color:blue;
+  border-radius: 50%;
 }
