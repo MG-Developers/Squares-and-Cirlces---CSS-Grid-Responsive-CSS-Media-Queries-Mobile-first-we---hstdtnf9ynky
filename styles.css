@@ -1,9 +1,10 @@
 .outer-square {
-  /* your css goes here */
+  width: 600px;
+  height: 600px;
 }
 .inner-square {
-  /* your css goes here */
+  padding: 10px 10px;
 }
 .circle {
-  /* your css goes here */
+  padding: 10px 10px;
 }
